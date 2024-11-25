@@ -1,0 +1,1 @@
+放置模型的权重(model.onnx/model.engine等)和缺陷的类型名

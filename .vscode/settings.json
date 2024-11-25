@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "algorithm": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "sstream": "cpp",
+        "numeric": "cpp",
+        "fstream": "cpp",
+        "chrono": "cpp",
+        "filesystem": "cpp"
+    }
+}
