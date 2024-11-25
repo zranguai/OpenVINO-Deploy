@@ -4,7 +4,7 @@
       "name": "windows-gcc-x64",
       "includePath": [
         "${workspaceFolder}/**",
-        "D:\\DL-Deploy\\OpenVINO_Code\\OpenVINO_Deploy\\yolo_openvino_src\\include\\**",
+        "C:\\tools\\w_openvino_toolkit_windows_2023.3.0.13775.ceeafaf64f3_x86_64\\runtime\\include\\**",
         "C:\\tools\\opencv-3.4.16\\opencv\\build\\include\\**"
       ],
       "compilerPath": "gcc",

@@ -5,78 +5,12 @@
 D:.
 ├─.vscode
 ├─build
-│  ├─.cmake
-│  │  └─api
-│  │      └─v1
-│  │          ├─query
-│  │          │  └─client-vscode   
-│  │          └─reply
-│  ├─CMakeFiles
-│  │  ├─3.29.3
-│  │  │  ├─CompilerIdCXX
-│  │  │  │  ├─Debug
-│  │  │  │  │  └─CompilerIdCXX.tlog
-│  │  │  │  └─tmp
-│  │  │  └─x64
-│  │  │      └─Debug
-│  │  │          └─VCTargetsPath.tlog
-│  │  ├─5462702e9e8a012eabebdb7d2744f090
-│  │  └─pkgRedirects
-│  ├─Debug
-│  │  ├─bin
-│  │  └─lib
-│  ├─vcpkg_installed
-│  │  ├─vcpkg
-│  │  │  ├─info
-│  │  │  └─updates
-│  │  └─x64-windows
-│  │      ├─bin
-│  │      ├─debug
-│  │      │  ├─bin
-│  │      │  └─lib
-│  │      │      └─pkgconfig
-│  │      ├─include
-│  │      │  ├─fmt
-│  │      │  ├─rapidjson
-│  │      │  │  ├─error
-│  │      │  │  ├─internal
-│  │      │  │  └─msinttypes
-│  │      │  └─spdlog
-│  │      │      ├─cfg
-│  │      │      ├─details
-│  │      │      ├─fmt
-│  │      │      └─sinks
-│  │      ├─lib
-│  │      │  └─pkgconfig
-│  │      └─share
-│  │          ├─fmt
-│  │          ├─rapidjson
-│  │          ├─spdlog
-│  │          ├─vcpkg-cmake
-│  │          └─vcpkg-cmake-config
-│  ├─x64
-│  │  └─Debug
-│  │      ├─ALL_BUILD
-│  │      │  └─ALL_BUILD.tlog
-│  │      └─ZERO_CHECK
-│  │          └─ZERO_CHECK.tlog
-│  ├─yolo_openvino_main
-│  │  ├─CMakeFiles
-│  │  ├─DeepLearning
-│  │  │  └─Log
-│  │  └─yolo_openvino_main.dir
-│  │      └─Debug
-│  │          └─yolo_ope.9F82707F.tlog
-│  └─yolo_openvino_src
-│      ├─CMakeFiles
-│      └─yolo_openvino_src.dir
-│          └─Debug
-│              └─yolo_ope.81463A0C.tlog
+│  ├─*
 ├─resources
 │  ├─datas
-│  │  ├─CameraCalibrator
-│  │  └─V8
-│  └─models
+│  │  ├─CameraCalibrator(相机标定配置yaml)
+│  │  └─V8(模型配置数据)
+│  └─models(*.onnx, *.name)
 ├─yolo_openvino_main
 │  └─src
 └─yolo_openvino_src
